@@ -4,6 +4,11 @@ P = float(input("Enter Principal amount: ₹"))
 R = float(input("Enter Rate of Interest (%): "))
 T = float(input("Enter Time (in years): "))
 
+#simple intrest
 SI = (P * R * T) / 100
 
+#compound intrest
+ci=p*((1+ r/100)**t)-p
+
 print(f"Simple Interest: ₹{SI}")
+print(f"compound interest:₹{ci}")
